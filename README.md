@@ -4,12 +4,15 @@ And in VueJs as cards
 ![alt text](https://github.com/Elenn/WinForms_vs_NetCore_Vuejs/blob/main/ToReadMe/WinForms.png?raw=true)  
 
 BE .net:
+
 run:
 
 dotnet run --urls "https://localhost:7026;http://localhost:5078"
 
 migrations: 
+
 dotnet ef migrations add InitialCreate 
+
 dotnet ef database update 
 
 open swagger: https://localhost:7026/swagger/index.html -> Products -> POST
@@ -27,7 +30,7 @@ add data to databse:
 { "id": 0, "title": "Red Lipstick", "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.", "category": "beauty", "brand": "Chic Cosmetics", "sku": "BEA-CHI-LIP-004", "warrantyInformation": "3 year warranty", "shippingInformation": "Ships in 1 week", "availabilityStatus": "In Stock", "returnPolicy": "7 days return policy", "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/thumbnail.webp", "price": 12.99 }
 
 
-FE 
+FE: 
 in other terminal run vueJs:
 
 npm run serve
