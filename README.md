@@ -1,3 +1,8 @@
+The same data was shown in WebForms as grid
+And in VueJs as cards
+![alt text](https://github.com/Elenn/WinForms_vs_NetCore_Vuejs/blob/main/ToReadMe/NetCore_VueJs.png?raw=true) 
+![alt text](https://github.com/Elenn/WinForms_vs_NetCore_Vuejs/blob/main/ToReadMe/WinForms.png?raw=true)  
+
 BE .net:
 run:
 
@@ -20,7 +25,8 @@ add data to databse:
 { "id": 0, "title": "Powder Canister", "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.", "category": "beauty", "brand": "Velvet Touch", "sku": "BEA-VEL-POW-003", "warrantyInformation": "3 months warranty", "shippingInformation": "Ships in 1-2 business days", "availabilityStatus": "In Stock", "returnPolicy": "No return policy", "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/thumbnail.webp", "price": 14.99 }
 
 { "id": 0, "title": "Red Lipstick", "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.", "category": "beauty", "brand": "Chic Cosmetics", "sku": "BEA-CHI-LIP-004", "warrantyInformation": "3 year warranty", "shippingInformation": "Ships in 1 week", "availabilityStatus": "In Stock", "returnPolicy": "7 days return policy", "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/thumbnail.webp", "price": 12.99 }
---------------------------------------
+
+
 FE 
 in other terminal run vueJs:
 
